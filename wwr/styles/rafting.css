@@ -69,13 +69,17 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
+section img {
+    width: 400px;
+    height: auto;
+}
+
 /* Class Selectors */
 
-.hero div {
+.hero {
     position: relative;
 }
 
-/*
 .hero img {
     display: block;
     width: 100%;
@@ -84,14 +88,32 @@ nav a:hover {
 
 .hero h1 {
     position: absolute;
+    top: 5px;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(108, 172, 228, 0.9); /* accent2-color in RGBA to adapt opacity */
+    text-align: center;
+    font-size: 80px;
 }
 
 .hero article {
     position: absolute;
+    bottom: 40%;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(242, 100, 48, 0.9); /* accent2-color in RGBA to adapt opacity */
+    padding: 20px;
 }
-*/
+
+.hero article img {
+    width: 300px;
+    height: auto;
+    float: right;
+    padding: 0%;
+}
 
 .sociallinks img {
     width: 40px;
     height: auto;
 }
+
