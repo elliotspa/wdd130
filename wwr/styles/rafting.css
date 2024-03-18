@@ -31,11 +31,6 @@ a {
     text-decoration: none;
 }
 
-article img {
-    float: right;
-}
-
-
 body {
     font-family: var(--paragraph-font);
     max-width: 2000px;
@@ -79,7 +74,7 @@ nav a:hover {
 .hero div {
     position: relative;
 }
-
+/*
 .hero img {
     display: block;
     width: 100%;
@@ -93,11 +88,9 @@ nav a:hover {
 .hero article {
     position: absolute;
 }
-
-.sociallinks {
-    text-decoration: none;
-}
+*/
 
 .sociallinks img {
-    size: 20px;
+    width: 40px;
+    height: auto;
 }
