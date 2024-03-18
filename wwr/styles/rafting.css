@@ -88,7 +88,8 @@ section img {
 
 .hero h1 {
     position: absolute;
-    top: 5px;
+    top: 4%;
+    bottom: auto;
     left: 10%;
     right: 10%;
     background-color: rgba(108, 172, 228, 0.9); /* accent2-color in RGBA to adapt opacity */
@@ -98,6 +99,7 @@ section img {
 
 .hero article {
     position: absolute;
+    top: auto;
     bottom: 40%;
     left: 10%;
     right: 10%;
