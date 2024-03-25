@@ -40,12 +40,21 @@ body {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+header img {
+    grid-column: 1;
 }
 
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    list-style: none;
+    max-height: 100px;
 }
 
 nav a {
@@ -70,7 +79,7 @@ nav a:hover {
 }
 
 section img {
-    width: 400px;
+    width: 300px;
     height: auto;
 }
 
@@ -78,6 +87,7 @@ section img {
 
 .hero {
     position: relative;
+    display: flex;
 }
 
 .hero img {
@@ -95,6 +105,7 @@ section img {
     background-color: rgba(108, 172, 228, 0.9); /* accent2-color in RGBA to adapt opacity */
     text-align: center;
     font-size: 80px;
+    order: 1;
 }
 
 .hero article {
@@ -105,6 +116,7 @@ section img {
     right: 10%;
     background-color: rgba(242, 100, 48, 0.9); /* accent2-color in RGBA to adapt opacity */
     padding: 20px;
+    order: 2;
 }
 
 .hero article img {
@@ -117,5 +129,50 @@ section img {
 .sociallinks img {
     width: 40px;
     height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 2fr .5fr ;
+}
+
+.grid img {
+    grid-column: 2/3;
+    width: 200px;
+    height: auto;
+}
+
+.grid nav {
+    grid-column: 4/6;
+
+}
+
+.history {
+    display: flex;
+    justify-content: space-around;
+}
+
+.history img {
+    width: auto;
+    height: 300px;
+    flex: 1;
+}
+
+.child2 {
+    order: 2;
+}
+
+.child1 {
+    order: 1;
+}
+
+.child3 {
+    order: 3;
+}
+.adventures {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    max-width: fit-content;
 }
 
