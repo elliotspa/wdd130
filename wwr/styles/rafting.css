@@ -126,11 +126,6 @@ section img {
     padding: 0%;
 }
 
-.sociallinks img {
-    width: 40px;
-    height: auto;
-}
-
 .grid {
     display: grid;
     grid-template-columns: .5fr 2fr 1fr 2fr .5fr ;
@@ -176,3 +171,16 @@ section img {
     max-width: fit-content;
 }
 
+.sociallinks {
+    display: flex;
+    justify-content: end;
+}
+
+.sociallinks img {
+    width: 40px;
+    height: auto;
+}
+
+.sociallinks p {
+    justify-self: center;
+}
