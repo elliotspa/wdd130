@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD130 | HTML Form - User Poll</title>
+</head>
+
+<body>
+    <header>
+        <h1>WDD | Elliot Spannaus Sa | HTML Form - User Poll</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name: <input type="text" name="fullname" id="fullname"></label>
+                <label for="useremail">Email: <input type="email" name="useremail" id="useremail"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="edge">Edge</option>
+                    <option value="safari">Safari</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">Do you have a household pet? <input type="checkbox" name="pet" id="pet"></label>
+                <label for="feedback">List the places you have lived: <textarea name="feedback" id="feedback" rows="4" placeholder="Stillwater Florida, Buenos Aires Argentina, Asuncion Paraguay"></textarea></label>
+            </fieldset>
+            
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>©️2024 | HTML Form - User Poll Activity | Elliot Spannaus Sa</p>
+    </footer>
+
+</body>
+</html>
