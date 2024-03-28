@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
+
+:root {
+    --heading-font: 'Roboto';
+    --paragraph-font: 'Roboto';
+}
+
+header, main, footer {
+    font-family: var(--heading-font);
+}
+
+fieldset {
+    max-width: fit-content;
+    display: flex;
+    flex: 200px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: lightyellow;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
