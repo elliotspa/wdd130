@@ -4,7 +4,7 @@
     --primary-color: #FAD32B;
     --secondary-color: #2A2D34;
     --accent1-color: #F26430;
-    --accent2-color: #6CACE4;
+    --accent2-color: #000080;
 
     --heading-font: 'Roboto';
     --paragraph-font: 'Roboto';
@@ -17,7 +17,7 @@
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 p {
@@ -33,7 +33,7 @@ a {
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 2000px;
+    max-width: 960px;
     padding: 20px;
 }
 
@@ -81,6 +81,11 @@ nav a:hover {
 section img {
     width: 300px;
     height: auto;
+}
+
+span {
+    color: var(--accent2-color);
+    text-decoration: underline;
 }
 
 /* Class Selectors */
@@ -181,3 +186,13 @@ section img {
     height: auto;
 }
 
+.employees {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 200px;
+}
+
+.employees figcaption {
+    text-align: center;
+}
