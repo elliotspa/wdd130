@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,300&display=swap');
 
 :root {
-    --primary-color: #FAD32B;
+    --primary-color: #FFF59E;
     --secondary-color: #2A2D34;
     --accent1-color: #F26430;
     --accent2-color: #000080;
@@ -87,6 +87,58 @@ span {
     color: var(--accent2-color);
     text-decoration: underline;
 }
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    display: grid;
+    padding: 1rem;
+    border: 1px solid var(--accent1-color);
+    border-radius: .5rem;
+    background-color: #eee;
+    grid-template-columns: 1fr;
+    align-self: center;
+    font-size: 1.1em;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+}
+
+label {
+    text-align: left;
+}
+
+button {
+    background-color: var(--accent2-color);
+    color: #fff;
+    border: none;
+    margin: 1rem;
+    border-radius: 0.2em;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+}
+
+input, select, textarea, button {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: .2rem;
+}
+
+
 
 /* Class Selectors */
 
@@ -190,9 +242,13 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 200px;
+    max-width: 650px;
 }
 
 .employees figcaption {
     text-align: center;
+}
+
+.formitem {
+    display: flex;
 }

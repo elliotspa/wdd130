@@ -53,24 +53,37 @@
             <div>
                 <form>
                     <fieldset>
-                        <label for="fullname">Full Name: <input type="text" name="fullname" id="fullname"></label>
-                        <label for="useremail">Email: <input type="email" name="useremail" id="useremail"></label>
-                        
-                        <p>Choose your question type</p>
-                        <input type="radio" id="general" name="question-type" value="General Inquiry">
-                        <label for="general">General Inquiry</label>
-                           
-                        <input type="radio" id="reservation" name="question-type" value="Reservation Question">
-                        <label for="reservation">Reservation Question</label>
+                        <div class="formitem">
+                            <label for="fullname">Full Name: <input type="text" name="fullname" id="fullname"></label>
+                        </div>
+                        <div class="formitem">
+                            <label for="useremail">Email: <input type="email" name="useremail" id="useremail"></label>
+                        </div>
+                        <div class="questiontype">
+                        <legend>Choose your question type<legend>
+                        </div>
 
-                        <input type="radio" id="website" name="question-type" value="Website Suggestion">
-                        <label for="website">Website Suggestion</label>
+                        <ul>
+                            <li><input type="radio" id="general" name="question-type" value="General Inquiry">
+                            <label for="general">General Inquiry</label>
+                            </li>
+                            <li>
+                            <input type="radio" id="reservation" name="question-type" value="Reservation Question">
+                            <label for="reservation">Reservation Question</label>
+                            </li>
+                            <li>
+                            <input type="radio" id="website" name="question-type" value="Website Suggestion">
+                            <label for="website">Website Suggestion</label>
+                            </li>
+                        </ul>
 
                         <label for="message">Your message/question/suggestion</label>
                         <textarea name="message" id="message" rows="4"></textarea>
-                
+                        
+                        <div class="formitem">
                         <input type="checkbox" id="subscription" name="subscription" value="Yes">
                         <label for="subscription">Please subscribe me to the monthly newsletter</label>
+                        </div>
                     </fieldset>
                         
                     <button type="submit">Submit Message</button>
