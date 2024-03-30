@@ -85,7 +85,7 @@ section img {
 
 span {
     color: var(--accent2-color);
-    text-decoration: underline;
+    font-weight: bolder;
 }
 
 form {
@@ -136,6 +136,7 @@ ul {
 
 li {
     padding: .2rem;
+    margin-bottom: 5px;
 }
 
 
@@ -245,10 +246,14 @@ li {
     max-width: 650px;
 }
 
+.employeeimage {
+    width: 250px;
+    height: auto;
+}
+
 .employees figcaption {
     text-align: center;
 }
 
-.formitem {
-    display: flex;
-}
+
+
