@@ -91,7 +91,7 @@ footer {
 /* Class Selectors */
 
 .form-item {
-    display: grid;
+    display: flex;
 }
 
 .column1 {
