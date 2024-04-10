@@ -314,3 +314,20 @@ li {
     padding: 10%;
     margin: 10%;
 }
+
+.thrill-2 {
+    display: block;
+    position: absolute;
+    background-color: rgba(242, 100, 48, 0.8);
+    width: 50%;
+    height: auto;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 10%;
+    margin: 10%;
+}
+
+.thrill-2 h2 {
+    font-size: 2em;
+}
